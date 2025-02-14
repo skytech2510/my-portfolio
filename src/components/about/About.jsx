@@ -2,7 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Button from '../shared/Button';
 import SkillsGrid from './SkillsGrid';
-
+const openCV = () => {
+  window.open("https://drive.google.com/file/d/1tSGowHTZwYT4gfyvXyN59hGY_JUlDgYS/view", "_blank");
+}
 const About = () => {
   return (
     <section id="about" className="py-20 bg-white dark:bg-gray-900">
@@ -29,7 +31,7 @@ const AboutContent = () => (
     <p className="mb-8 text-gray-600 dark:text-gray-300">
       My expertise spans both frontend and backend technologies, emphasizing React, Solidity, and various blockchain platforms. I am committed to leveraging technology to create impactful solutions in the Web3 and FinTech sectors. Throughout my career, I have played pivotal roles in projects that drive forward the intersection of blockchain and traditional finance, always striving for excellence and continuous improvement in every endeavor.
     </p>
-    <Button variant="primary">Show CV</Button>
+    <Button onClick={() => openCV()} variant="primary">Show CV</Button>
   </motion.div>
 );
 
