@@ -1,30 +1,30 @@
 export const projectsData = [
   {
-    title: "DeFi Lending Platform",
-    description: "Decentralized lending platform with AI-powered risk assessment and automated interest rate optimization",
-    tech: ["Solidity", "Web3.js", "React", "TensorFlow", "Ethereum"],
-    image: "https://picsum.photos/seed/1/600/400",
+    title: "DeFi Platform",
+    description: "Everburn is a Hyper-Deflationary reflection token, rapidly burning supply on every buy and sale. The burn process is percentage-based.",
+    tech: ["Solidity", "Web3.js", "React", "TensorFlow", "Ethereum", "Redux"],
+    image: "https://beige-select-ox-761.mypinata.cloud/ipfs/bafybeifkx5sjkrzilhjk3tr2y57uezxyrl5zbedfyawldrznsb5kvecm3q",
     featured: true
   },
   {
-    title: "NFT Marketplace",
-    description: "Full-featured NFT marketplace with AI-generated artwork integration and dynamic pricing",
+    title: "DeFi Platform",
+    description: "Stelareum was designed to address the critical need for accurate 	in the cryptocurrency market. Our website provides a comprehensive environment for accessing and analyzing cryptocurrency prices, enabling users to make informed decisions.",
     tech: ["Smart Contracts", "IPFS", "Next.js", "Python", "OpenAI"],
-    image: "https://picsum.photos/seed/2/600/400",
+    image: "https://beige-select-ox-761.mypinata.cloud/ipfs/bafybeibyra45taqk7lb5cqjdxnnpk33hjajxrt3wjaeu2desx34y4bkw2u",
     featured: true
   },
   {
-    title: "AI Trading Bot",
-    description: "Cryptocurrency trading bot using machine learning for price prediction and automated trading",
-    tech: ["Python", "PyTorch", "Node.js", "MongoDB", "Binance API"],
-    image: "https://picsum.photos/seed/3/600/400",
+    title: "NFT MarketPlace",
+    description: "Explore the world’s top DJs, enjoy exclusive live streams, and connect with a vibrant global community of music enthusiasts. Our marketplace platform allows artists to upload their songs and images, securely storing them as NFTs on the Solana blockchain.",
+    tech: ["Solidity", "ether.js", "Next.js", "TailWindCSS"],
+    image: "https://beige-select-ox-761.mypinata.cloud/ipfs/bafybeieeocuyc7zqqh76wk5obmqhppqll4xhri7tidkaoyhdz44bwvrase",
     featured: true
   },
   {
-    title: "DAO Governance Platform",
-    description: "Decentralized autonomous organization platform with AI-powered proposal analysis",
+    title: "Ticket MarketPlace",
+    description: "Valicit is a platform for buying and selling tickets to first-class events ... Join Valicit Insiders for free to receive updates and exclusive offers.",
     tech: ["Solidity", "React", "GraphQL", "NLP", "Aragon"],
-    image: "https://picsum.photos/seed/4/600/400",
+    image: "https://beige-select-ox-761.mypinata.cloud/ipfs/bafybeihhxsoqrhlmdkltplbaljoqc4ym7v5oihiqwjdbp6wg3f7bbalyae",
     featured: true
   },
   {
