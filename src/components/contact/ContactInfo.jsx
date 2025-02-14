@@ -5,9 +5,9 @@ import ContactInfoItem from './ContactInfoItem';
 
 const ContactInfo = () => {
   const contactDetails = [
-    { icon: <FaEnvelope />, title: "Email", content: "hello@example.com" },
+    { icon: <FaEnvelope />, title: "Email", content: "johnveetle117@gmail.com" },
     { icon: <FaPhone />, title: "Phone", content: "+1 (555) 123-4567" },
-    { icon: <FaMapMarkerAlt />, title: "Location", content: "San Francisco, CA" }
+    { icon: <FaMapMarkerAlt />, title: "Location", content: "Pahang Kuantan, Malaysia" }
   ];
 
   return (

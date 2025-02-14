@@ -5,10 +5,10 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-white">
-      <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center mb-16">Get In Touch</h2>
-        
-        <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+      <div className="container px-6 mx-auto">
+        <h2 className="mb-16 text-4xl font-bold text-center">Get In Touch</h2>
+
+        <div className="grid max-w-4xl gap-12 mx-auto md:grid-cols-2">
           <div className="space-y-8">
             <ContactInfo
               icon={<FaEnvelope />}
@@ -34,21 +34,21 @@ const Contact = () => {
             className="space-y-6"
           >
             <div>
-              <label className="block text-gray-700 mb-2">Name</label>
+              <label className="block mb-2 text-gray-700">Name</label>
               <input
                 type="text"
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
             <div>
-              <label className="block text-gray-700 mb-2">Email</label>
+              <label className="block mb-2 text-gray-700">Email</label>
               <input
                 type="email"
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
             <div>
-              <label className="block text-gray-700 mb-2">Message</label>
+              <label className="block mb-2 text-gray-700">Message</label>
               <textarea
                 rows="4"
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
@@ -57,7 +57,7 @@ const Contact = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition-colors"
+              className="w-full py-3 text-white transition-colors bg-indigo-600 rounded-lg hover:bg-indigo-700"
             >
               Send Message
             </motion.button>
