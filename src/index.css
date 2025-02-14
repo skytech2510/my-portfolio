@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .dark body {
@@ -19,4 +19,18 @@ body {
   body {
     @apply transition-colors duration-200;
   }
+}
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+  border-radius: 10px; /* Rounded corners */
+}
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar handle */
+  border-radius: 10px; /* Rounded corners */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color on hover */
 }
