@@ -9,20 +9,20 @@ const About = () => {
 
   return (
     <section id="about" className="py-20 bg-white">
-      <div className="container mx-auto px-6">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+      <div className="container px-6 mx-auto">
+        <div className="grid items-center gap-12 md:grid-cols-2">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-4xl font-bold mb-6">About Me</h2>
-            <p className="text-gray-600 mb-6">
+            <h2 className="mb-6 text-4xl font-bold">About Me</h2>
+            <p className="mb-6 text-gray-600">
               I'm a passionate frontend developer with 5 years of experience building
               modern web applications. I specialize in creating responsive, user-friendly
               interfaces that provide exceptional user experiences.
             </p>
-            <p className="text-gray-600 mb-8">
+            <p className="mb-8 text-gray-600">
               When I'm not coding, you can find me exploring new technologies,
               contributing to open-source projects, or sharing my knowledge through
               technical blog posts.
@@ -30,7 +30,7 @@ const About = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors"
+              className="px-6 py-2 text-white transition-colors bg-indigo-600 rounded-lg hover:bg-indigo-700"
             >
               Download CV
             </motion.button>
@@ -40,9 +40,9 @@ const About = () => {
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="bg-gray-50 p-8 rounded-lg"
+            className="p-8 rounded-lg bg-gray-50"
           >
-            <h3 className="text-2xl font-bold mb-6">Skills & Technologies</h3>
+            <h3 className="mb-6 text-2xl font-bold">Skills & Technologies</h3>
             <div className="grid grid-cols-2 gap-4">
               {skills.map((skill, index) => (
                 <motion.div
@@ -50,7 +50,7 @@ const About = () => {
                   initial={{ opacity: 0, y: 10 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.3, delay: index * 0.1 }}
-                  className="bg-white p-4 rounded-lg shadow-sm"
+                  className="p-4 bg-white rounded-lg shadow-sm"
                 >
                   {skill}
                 </motion.div>
