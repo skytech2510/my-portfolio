@@ -1,3 +1,8 @@
-export default async (req, context) => {
-    return new Response("Hello, world!");
+exports.handler = async (event, context) => {
+    return {
+        statusCode: 500,
+        body: JSON.stringify({
+            msg: 'Hello World!',
+        }),
+    };
 };
