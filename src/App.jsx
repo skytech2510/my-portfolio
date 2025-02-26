@@ -8,13 +8,14 @@ import ProjectDetailPage from './pages/ProjectDetailPage';
 function App() {
   return (
     <ThemeProvider>
-      <Router>
+      sdfsdf
+      {/* <Router>
         <Routes>
           <Route path="/" element={<MainLayout><HomePage /></MainLayout>} />
           <Route path="/project/:id" element={<MainLayout><ProjectDetailPage /></MainLayout>} />
           <Route component={<>Not Found</>}></Route>
         </Routes>
-      </Router>
+      </Router> */}
     </ThemeProvider>
   );
 }
