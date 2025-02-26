@@ -1,5 +1,5 @@
 [build]
-command = "npm run build"
+command = "npm run build --force"
 functions = "netlify/functions/"
 publish = "build/"
 
