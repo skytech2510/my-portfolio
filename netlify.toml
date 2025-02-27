@@ -1,0 +1,11 @@
+[build]
+publish = "dist"          # Directory to publish (default for Vite)  
+command = "npm run build" # Command to build your project  
+
+[functions]
+directory = "netlify/functions" # Specify the functions directory  
+
+[[redirects]]
+from = "/api/*"
+to = "/.netlify/functions/:splat"
+status = 200
